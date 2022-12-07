@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proyecto</title>
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="fancybox/jquery.fancybox.css" />
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script src="fancybox/jquery.fancybox.js"></script>
+        <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
+        <script src="responsiveslides.min.js"></script>
+        <script src="wow.min.js"></script>
+        <script src="funciones.js"></script>
+        <script type="text/javascript" src="jquery.tinycarousel.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function()
+            {
+                $('#slider1').tinycarousel();
+            });
+        </script>
+    </head>
+    <body>
+        <i id="subir" class="fas fa-arrow-circle-up"></i>
+        <header class="principio">
+            <article class="presentacion">
+                <div class="iconos">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <p>
+                    Welcome to Construcyion Company.
+                </p>
+                <p class="cambio">
+                    Get Free Quote
+                </p>
+            </article>
+            <article class="presentacion">
+                <div class="icono2">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                
+                <p>
+                    needhelp@company.com
+                </p>
+                <div class="icono2">
+                    <i class="fa-solid fa-clock"></i>
+                </div>
+                <p>
+                    Mon-Sat 8:00-6:30, Sunday-CLOSED
+                </p>
+            </article>
+        </header>
+        <nav>
+            <div class="contenedor_img">
+                <figure class="logo">
+                    <img src="imagenes/logo@2x.png" alt="" />
+                </figure>
+            </div>
+            <div id="menu">
+                <i class="fas fa-bars fa-1x"></i>
+            </div>
+            <ul id="contenedormenu">
+                <li><a href="#inicio" class="btn_ancla">Home</a></li>
+                <li><a href="#servicios" class="btn_ancla">Pages</a></li>
+                <li><a href="#comprar" class="btn_ancla">Services</a></li>
+                <li><a href="#ubicacion" class="btn_ancla">Projects</a></li>
+                <li><a href="#nuevo" class="btn_ancla">News</a></li>
+                <li><a href="#contactanos" class="btn_ancla">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="ancho1">
+            <div class="contenedor2">
+                <h1 class="wow animate__animated animate__flash">Providing Quality</h1>
+                <br>
+                <h1 class="wow animate__animated animate__flash">Building Solutions</h1>
+            </div>
+        </section>
+        <br>
+        <br>
+        <section class="slidefotos">
+            <ul class="rslides">
+              <li><img src="imagenes/slide1.jpg" alt=""></li>
+              <li><img src="imagenes/slide2.jpg" alt=""></li>
+              <li><img src="imagenes/slide3.jpg" alt=""></li>
+            </ul>
+            <div class="informacion">
+              <p>
+                Engineering techniques & implementacion process
+              </p>
+              <p>
+                We´re a full service construction company
+              </p>
+              <p>
+                Offering complete integrated package
+              </p>
+              
+              <header id="boton">
+                <a href="#" class="btn_modal" id="Btn">Abrir ventana modal</a>
+              </header>
+            </div>
+          </section>
+          <script>
+            $(function () {
+              $(".rslides").responsiveSlides();
+            });
+        
+            // script para animaciones
+            new WOW().init();
+        
+          </script>
+
+
+        <section class="galeria_ancho">
+            <a name="servicios"></a>
+            <h2 id="servicios"></h2>
+            <div class="contenedor_info">
+                <article class="contenedor_img1">
+                    <div class="text1">
+                        <i class="fa-sharp fa-solid fa-industry"></i>
+                        <H3>Bridge Construction</H3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                </article>
+                <article class="contenedor_img2">
+                    <div class="text1">
+                        <i class="fa-sharp fa-solid fa-industry"></i>
+                        <H3>Mechanical</H3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                </article>
+                <article class="contenedor_img3">
+                    <div class="text1">
+                        <i class="fa-sharp fa-solid fa-industry"></i>
+                        <H3>Industry</H3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <br />
+      
+            <h2 id="ubicacion">Recent Industrial Projects</h2>
+            <div id="slider1">
+                <a class="buttons prev" href="#"><i class="fa-solid fa-angle-left"></i></a>
+                <div class="viewport">
+                    <ul class="overview">
+                        <li>
+                            <img src="imagenes/foto_new1.jpg" />
+                            <p>Factory / Industri</p>
+                            <h2>Bridge Construction</h2>
+                        </li>
+                        <li>
+                            <img src="imagenes/foto_new2.jpg" />
+                            <p>Factory / Industri</p>
+                            <h2>Bridge Construction</h2>
+                            
+                        </li>
+                        <li>
+                            <img src="imagenes/foto_new3.jpg" />
+                            <p>Factory / Industri</p>
+                            <h2>Bridge Construction</h2>
+                        </li>
+                        <li>
+                            <img src="imagenes/foto_new4.jpg" />
+                            <p>Factory / Industri</p>
+                            <h2>Bridge Construction</h2>
+                        </li>
+                        <li>
+                            <img src="imagenes/foto_new5.jpg" />
+                            <p>Factory / Industri</p>
+                            <h2>Bridge Construction</h2>
+                        </li>
+                        <li>
+                            <img src="imagenes/foto_new6.jpg" />
+                            <p>Factory / Industri</p>
+                            <h2>Bridge Construction</h2>
+                        </li>
+                    </ul>
+                </div>
+                <a class="buttons next" href="#"><i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            
+            <br />
+            <h2 id="contactanos">What They´re Saying</h2>
+            <h2>About Company</h2>
+
+           
+            <div class="acordeon">
+                <div class="acordeon_titulo titulo1">
+                    <h6>Mike Hardson</h6>
+                   
+                </div>
+                <article class="acordeon_contenido contenido1">
+                  <img src="imagenes/avata-01.jpg" alt="">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae nostrum repudiandae, voluptatibus incidunt eum, odio eveniet illo hic odit quo magnam nihil sapiente dolor exercitationem! Voluptatibus aut nisi aliquam repellendus.
+                  </p>
+                </article>
+            </div>
+            <div class="acordeon">
+                <div class="acordeon_titulo titulo2">
+                  <h6>Sarah Albert</h6>
+                </div>
+                <article class="acordeon_contenido contenido2">
+                  <img src="imagenes/avata-02.jpg" alt="">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam eveniet doloribus cupiditate error excepturi magni hic animi quam consectetur veritatis! Nemo earum eos illum consectetur, eius officia rem provident voluptatem!</p>
+                </article>
+              </div>
+              <div class="acordeon">
+                <div class="acordeon_titulo titulo3">
+                  <h6>Goerge Bush</h6>
+                </div>
+                <article class="acordeon_contenido contenido3">
+                  <img src="imagenes/avata-03.jpg" alt="">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel rerum quos et, dignissimos odio molestiae sequi totam similique aspernatur nemo incidunt voluptatibus neque, consectetur illum labore unde deserunt delectus natus?</p>
+                </article>
+              </div>
+            <script>
+                //ACORDEON
+            
+                $(".titulo1").click(function () {
+                  $(".contenido1").slideToggle();
+                  $(".mas1").toggleClass("desaparecer");
+                });
+            
+                $(".titulo2").click(function () {
+                  $(".contenido2").slideToggle();
+                  $(".mas2").toggleClass("desaparecer");
+                });
+            
+                $(".titulo3").click(function () {
+                  $(".contenido3").slideToggle();
+                  $(".mas3").toggleClass("desaparecer");
+                });
+        
+              </script>
+           
+            </div>
+          </section>
+          <br>
+          <br>
+          <div class="contenedor">
+            
+            <section class="ancho4">
+                <article class="consulta">
+                     <figure class="wow animate__animated animate__backInLeft">
+                        <img src="imagenes/fancy-image-04.jpg" alt="">
+                    </figure>
+                    <h4>Construction Solutions</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quo dicta ipsum harum aspernatur illum obcaecati error earum magni incidunt natus cumque, a pariatur ducimus ipsam iure dolorem minima vel.
+                    </p>
+               </article>
+               <article class="consulta">
+                <figure class="wow animate__animated animate__backInDown">
+                   <img src="imagenes/fancy-02.jpg" alt="">
+                </figure>
+                <h4>Industri Construction</h4>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae iste nesciunt quis earum rem? Quam fuga, eveniet doloribus tempora perspiciatis facere hic cum porro fugit id quibusdam culpa ratione debitis!
+                </p>
+            </article>
+          <article class="consulta">
+            <figure class="wow animate__animated animate__backInRight">
+               <img src="imagenes/fancy-03.jpg" alt="">
+           </figure>
+           <h4>Mechanical Engineering</h4>
+           <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus laborum eveniet quam sed sunt officia numquam iste, praesentium nihil dolores tempore voluptatibus est, illo quia animi et commodi dolorum inventore?
+           </p>
+      </article>
+      </section>
+      <br>
+      <h1>News & Articles</h1>
+      <section id="galeria" class="ancho contenedorfotos">
+        <a href="imagenes/foto1.jpg" class="fancybox" title="08 JUL" rel="gallery1">
+            <img src="imagenes/foto1.jpg" alt="" />
+        </a>
+        <a href="imagenes/foto2.jpg" class="fancybox" title="01 JUL" rel="gallery1">
+            <img src="imagenes/foto2.jpg" alt="" />
+        </a>
+        <a href="imagenes/foto3.jpg" class="fancybox" title="30 JUN" rel="gallery1">
+            <img src="imagenes/foto3.jpg" alt="" />
+        </a>
+        <a href="imagenes/foto_new3.jpg" class="fancybox" title="05 AGO" rel="gallery1">
+            <img src="imagenes/foto_new3.jpg" alt="" />
+        </a>
+    </section>
+</section>
+
+      <section class="parrallaxas ancho">
+        <div class="info2">
+          <h5>CONSTRUCTION</h5>
+          <H6>& INDUSTRY</H6>
+        </div>
+        <iframe class="wow animate__animated animate__bounceInLeft"
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dVJlzXOHAG8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </iframe>
+        <div class="bton1">
+          <a href="#" class="btn wow animate__animated animate__backInDown">Discover More</a>
+        </div>
+      </section>
+      <section class="meet ancho">
+        <article>
+            <figure>
+                <img src="imagenes/team-01.jpg" alt="">
+            </figure>
+            <h2 class="wow animate__animated animate__rubberBand">Robert Smith</h2>
+            <h3>Contractor</h3>
+            <hr>
+            <div class="redes">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </article>
+        <article>
+            <figure>
+                <img src="imagenes/team-02.jpg" alt="">
+            </figure>
+            <h2 class="wow animate__animated animate__bounceInLeft">Jessica Brown</h2>
+            <h3>Contractor</h3>
+            <hr>
+            <div class="redes">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </article>
+        <article>
+            <figure>
+                <img src="imagenes/team-03.jpg" alt="">
+            </figure>
+            <h2 class="wow animate__animated animate__flash">Kevin Martin</h2>
+            <h3>Contractor</h3>
+            <hr>
+            <div class="redes">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            </div>
+        </seccion>
+            <br /><br />
+            <section id="modal" class="fondomodal">
+                <div class="contenidomodal">
+                  <div class="estructuramodal">
+                    <h3 class="form_title">Mas Informacion</h3>
+                    <p class="form_paragraph"> <a href="#" class="form_link"></a></p>
+                    <i id="cerrarbtn" class="cerrarmodal fas fa-times-circle"></i>
+                  </div>
+                  <div class="form_container">
+                    <div class="form_group">
+                        <input type="text" id="name" class="form_input" placeholder="">
+                        <label for="name" class="form_label">Nombre</label>
+                        <span class="form_line"></span>
+                    </div>
+                    <div class="form_group">
+                        <input type="text" id="user" class="form_input" placeholder="">
+                        <label for="name" class="form_label">Imail</label>
+                        <span class="form_line"></span>
+                    </div>
+                    <div class="form_group">
+                        <input type="text" id="password" class="form_input" placeholder="">
+                        <label for="name" class="form_label">Numero</label>
+                        <span class="form_line"></span>
+                    </div>
+                    <input type="submit" class="form_submit" value="Entrar">
+                  </div>
+                 
+                </div>
+              </section>
+            
+              <!-- FUNCIONES JAVASCRIPT -->
+              <script>
+                var fondomodal = document.getElementById("modal");
+                var btn = document.getElementById("Btn");
+                var cerrar = document.getElementById("cerrarbtn");
+            
+                function tiempo() {
+                  fondomodal.style.display = "block";
+                }
+                setTimeout(tiempo, 5000);
+            
+                btn.onclick = function () {
+                  fondomodal.style.display = "block";
+                };
+                cerrar.onclick = function () {
+                  fondomodal.style.display = "none";
+                };
+                window.onclick = function (event) {
+                  if (event.target == fondomodal) {
+                    fondomodal.style.display = "none";
+                  }
+                };
+              </script>
+        <footer>
+            <p>Terms & Conditions / Privacy Policy / Sitemap</p>
+        </footer>
+        <script src="funciones.js"></script>
+    </body>
+</html>
